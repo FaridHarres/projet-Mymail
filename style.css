@@ -1,0 +1,55 @@
+body{
+
+    background-color: #F5F6FA;
+}
+.container{
+
+    display: flex;
+    justify-content: center;
+}
+.row{   
+    display: flex;
+    border: 0.5px solid rgb(212, 205, 205);
+    align-items: center;   
+   
+}
+.nameText{  
+    font-family: 'Open Sans', sans-serif;
+    margin: 10px 20px 10px 20px;
+    display: flex;
+    flex-direction: column;
+    border:  1px #DADADA;  
+    font-size: 14px;
+    flex-grow:1
+}
+.nameText h6{
+    font-weight: bold; 
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#principal{
+    width: 50%;
+    background-color: #FFFFFF;
+}
+
+.trash{
+    width: 15px;
+    height: 15px;
+    margin: 15px;
+}
+.avatar{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 15px;
+}
+.compteur{
+    font-weight: bold; 
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 10px 20px 10px 20px;
+}
