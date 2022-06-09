@@ -18,7 +18,6 @@ body{
     margin: 10px 20px 10px 20px;
     display: flex;
     flex-direction: column;
-    border:  1px #DADADA;  
     font-size: 14px;
     flex-grow:1
 }
@@ -32,6 +31,10 @@ body{
 #principal{
     width: 50%;
     background-color: #FFFFFF;
+    border:  1px #DADADA;  
+
+
+
 }
 
 .trash{
@@ -53,3 +56,32 @@ body{
     font-family: 'Open Sans', sans-serif;
     margin: 10px 20px 10px 20px;
 }
+
+.add{
+    display: flex;
+    border: 0.5px solid rgb(212, 205, 205);
+    padding: 20px;
+   justify-content: space-around;
+   height: 40px;
+   
+}
+#newMessage{
+    width: 80%;
+
+}
+#btnAdd{
+    border-radius: 20%;
+    padding: 10px;
+    background-color: #FFFFFF;
+    color: blue;
+    border-color: blue;
+}
+#btnAdd:focus{
+    outline: 0;
+}
+
+.messageTotal{
+    border: 0.5px solid rgb(212, 205, 205);
+
+}
+
